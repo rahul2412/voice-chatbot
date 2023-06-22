@@ -43,7 +43,6 @@ export default function Chat(props) {
     const { speak } = useSpeechSynthesis();
     const {
         transcript,
-        resetTranscript,
         browserSupportsSpeechRecognition
     } = useSpeechRecognition();
 
@@ -80,7 +79,7 @@ export default function Chat(props) {
                 let i = orderText.indexOf(item)
                 let food = item
 
-                if (i != -1) {
+                if (i !== -1) {
                     for (const num in numbersInEnglish) {
                         if (orderText.substring(i - 6, i).includes(num)) {
                             temp_order[food] = numbersInEnglish[num]
