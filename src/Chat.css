@@ -1,0 +1,22 @@
+.chat-container {
+    height: 630px;
+    width: 350px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: peachpuff;
+}
+
+.chat-top-container {
+    height: 125px;
+}
+
+.chatbox {
+    padding-left: 10px;
+}
+
+button {
+    margin-right: 10px;
+    border-radius: 10px;
+}

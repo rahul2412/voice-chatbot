@@ -1,0 +1,10 @@
+.bot-container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    background-image: url('./butter.png');
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
